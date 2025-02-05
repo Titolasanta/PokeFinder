@@ -20,7 +20,7 @@ RUN npm install
 COPY . .
 
 # Ensure port 8080 is accessible to our system
-EXPOSE 8080
+EXPOSE 3000
 
-# Run dev, as we would via the command line
+
 CMD npm run dev
